@@ -12,37 +12,7 @@
 </div>
 
 <div class="main">
-  <div class="main-text">
-    <div class="top-text">
-      <div class="text-user">
-        Tom 
-      </div>
-      <div class="text-date">
-        2020/3/31(Wed) 12:43:30
-      </div>
-    </div>
-    <div class="bottom-text">
-      <div class="text-content">
-        おはよう
-      </div>
-    </div>
-  </div>
-
-  <div class="main-text">
-    <div class="top-text">
-      <div class="text-user">
-        Alice
-      </div>
-      <div class="text-date">
-        2020/3/31(Wed) 12:43:30
-      </div>
-    </div>
-    <div class="bottom-text">
-      <div class="text-content">
-        こんばんは
-      </div>
-    </div>
-  </div>
+  <%= render partial: 'message', collection: @messages %>
 </div>
 
 
